@@ -1,7 +1,15 @@
-<mat-toolbar color="primary">
-  <button class="nav-button" mat-button>Features</button>
-  <button class="nav-button" mat-button>Documents</button>
-  <a mat-icon-button href="https://github.com/wzhang313/openfwi">
-     <mat-icon svgIcon="github-circle"></mat-icon>
-  </a>
+<mat-toolbar color="primary" class="toolbar">
+  <mat-toolbar-row>
+    <a mat-button>
+      <img src="assets/fwicon.png" width="50%" height="50%">
+    </a>
+    <button mat-button class="nav-button">Features</button>
+    <button mat-button class="nav-button">Theory</button>
+    <button mat-button class="nav-button">Documents</button>
+    <button mat-button class="nav-button">Datasets</button>
+    <span class="toolbar-filler"></span>
+    <a mat-icon-button href="https://github.com/wzhang313/openfwi">
+      <mat-icon svgIcon="github-circle"></mat-icon>
+    </a>
+  </mat-toolbar-row>
 </mat-toolbar>
